@@ -382,7 +382,9 @@ display: none;
   margin-top: 8px;
   margin-bottom: 8px;
 }
-
+.venues-content a:hover{
+  text-decoration: none;
+}
 .partners-content{
   margin-left: 2%;
   margin-right: 2%;

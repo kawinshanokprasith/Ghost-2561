@@ -275,6 +275,9 @@ a{
   margin-right: 2%;
   padding-bottom: 30%;
 }
+.venues-content a:hover{
+  text-decoration: none;
+}
 .participation-content{
   font-size: 28px;
   line-height: 1.17;
