@@ -218,7 +218,7 @@ a .second-header{
 .tab-content{
   height: 100%;
   overflow-y: scroll;
-  padding-bottom: 120px;
+  padding-bottom: 30%;
 }
 .tab-content::-webkit-scrollbar {
   display: none;

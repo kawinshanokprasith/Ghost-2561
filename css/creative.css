@@ -218,7 +218,7 @@ a .second-header{
 .tab-content{
   height: 100%;
   overflow-y: scroll;
-  padding-bottom: 120px;
+  padding-bottom: 30%;
 }
 .tab-content::-webkit-scrollbar {
   display: none;
@@ -269,6 +269,7 @@ a{
   margin-right: 8%;
   margin-top: 15px;
   text-align: left;
+  padding-bottom: 30%;
 }
 .venues-content{
   margin-left: 2%;
