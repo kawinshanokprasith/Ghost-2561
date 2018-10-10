@@ -68,7 +68,9 @@ section.masthead {
   -o-background-size: cover;
   background-size: cover;
 }
-
+nav.side-navbar-right{
+  z-index: 1012;
+}
 
 
 @media (min-width: 992px) {

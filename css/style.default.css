@@ -558,7 +558,7 @@ nav.side-navbar-right {
   max-width: 327px;
   color: #000;
   border-left: 2px solid #000;
-  z-index: 999;
+  z-index: 1012;
 }
 nav.side-navbar-right-keep{
   background: #fff;
