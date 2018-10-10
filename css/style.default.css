@@ -3414,10 +3414,6 @@ a {
 }
 
 a:focus, a:hover {
-<<<<<<< HEAD
-  /*color: #3b25e6;*/
-=======
->>>>>>> dd28b6b76fce7566ce2216956b2e2b0ae26b422a
   color: black;
   text-decoration: underline;
 }
