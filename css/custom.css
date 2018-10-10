@@ -102,6 +102,9 @@ header.header{
 .move{
     z-index: 1011;
 }
+table{
+    color: black;
+}
 @media (max-width:597px){
     a:hover{
         color: black;
