@@ -105,6 +105,26 @@ header.header{
 table{
     color: black;
 }
+.menu-footer-1{
+    width: 315px;
+}
+.menu-footer-1 .list-unstyled li .nav-link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.col-md-4 h1:last-of-type{
+    padding-top: 0;
+}
+.SCHEDULE{
+    margin-left: -34px;
+    margin-top: 90px!important;
+}
+.side-right-bottom{
+    line-height: 1;
+}
+.side-right-bottom li a{
+    padding-right: 0!important;
+}
 @media (max-width:597px){
     a:hover{
         color: black;
