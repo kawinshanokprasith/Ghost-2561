@@ -1,0 +1,274 @@
+@font-face {
+	font-family: 'Helvetica LT Thai';
+	src:url('fonts/lc_lightbox.eot');
+	src:url('fonts/HelveticaLTThai-Regular.woff2') format('woff2'),
+        url('fonts/HelveticaLTThai-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+html,body,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family:'Helvetica LT Thai'; 
+}
+/* your styles go here */
+.bottom-bar-wide{
+    background-color: white;
+    padding-bottom: 30px;
+}
+.mobile{
+    display: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a > span{
+    color:black;
+}
+h1{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: normal;
+}
+.detail > div {
+    padding:15px 0px;
+}
+.detail > div > a > h1{
+    margin-top:10px;
+}
+.navbar div.main-head{
+    display: none;
+    width: 97%;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Group-25{
+    width: 500px;
+    height: 220px;
+    margin-top: -50px;
+}
+.installation  .detail  h1{
+  padding-top:6px;
+  font-size: 25px;
+}
+.installation  .detail  span{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#installation .img-fluid{
+    width: 100%;
+}
+#performance .img-fluid{
+    width: 100%;
+}
+#exampledropdownDropdown{
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col-md-4{
+    padding-bottom:15px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    margin-bottom: 0;
+}
+.modal-icon{
+    width: 300px;
+}
+.modal-close-icon{
+    padding:14.5px;
+}
+.modal-header{
+    margin-top: 26.5px;
+    border-bottom: none;
+}
+.modal-backdrop{
+    background-color: #a7a7a7;
+    background-image: url('../images/modal/dust.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.close-text{
+    text-align: center;
+}
+.modal-backdrop.show{
+    opacity: .9;
+}
+.modal-body{
+    padding: 0;
+}
+.modal-footer{
+    display: inline;
+}
+.modal-footer>:not(:first-child){
+    margin-left: 0;
+}
+.modal-dialog{
+    max-width: 800px;
+}
+.fa-chevron-left{
+    padding-top: 0;
+    position: relative;
+    padding-right: 5px;
+}
+header.header{
+    z-index: 1010;
+}
+.move{
+    z-index: 1011;
+}
+table{
+    color: black;
+}
+.menu-footer-1{
+    width: 315px;
+}
+.menu-footer-1 .list-unstyled li .nav-link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.col-md-4 h1:last-of-type{
+    padding-top: 0;
+}
+.SCHEDULE{
+    margin-left: -34px;
+    margin-top: 90px!important;
+}
+.side-right-bottom{
+    line-height: 1;
+}
+.side-right-bottom li a{
+    padding-right: 0!important;
+}
+.modal-dialog{
+    margin-top: 0;
+}
+.modal-dialog-centered{
+    top: -90px;
+}
+@media (max-width:597px){
+    a:hover{
+        color: black;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    input::placeholder{
+        color:white;
+    }
+    .footer-bar-mail{
+        font-size: 17px;
+        padding: 0 10px;
+        float: left;
+        width: 50%;
+    }
+    h1{
+        font-size: 1.15rem;
+        color: black;
+        font-weight: normal;
+    }
+    header.header{
+      z-index:1010;
+    }
+    .side-bottom{
+      z-index: 1011;
+    }
+    nav.navbar-menu ul{
+        /* padding-right: 32%; */
+    }
+    .installation-mobile nav.navbar-menu ul{
+      /* padding-right: 16%; */
+    }
+    .installation  .detail  h1{
+      padding-top:6px;
+      font-size: 25px;
+    }
+    .installation  .detail  span{
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+    .nav.menu-head ul li{
+        width: 150px;
+    }
+    nav.menu-head ul li.active a > span{
+        width: 170px;
+    }
+    nav.navbar-menu ul li.active a > span{
+        width: 170px;
+    }
+    .navbar-brand{
+        position: absolute;
+        left: 30%;
+        top: 0;
+    }
+    #navbarToggleExternalContent{
+        padding-top: 15px;
+    }
+    .titleBar .fa-chevron-left{
+        position: relative;
+        padding: 0;
+        margin-right: 10px;
+    }
+    h2,h3,h4{
+        font-weight: normal;
+    }
+    .installation .detail span{
+        padding-bottom:0;
+    }
+    div span.header-detail{
+        font-size: 30px !important;
+        padding-top: 0;
+        line-height:1;
+    }
+    .detail > div{
+        padding-top: 0;
+    }
+    div span.subheader-detail{
+        font-size: 30px!important;
+    }
+    div span.desc-detail-title{
+        font-size: 16px!important;
+    }
+    div span.desc-middle{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 30px!important;
+        padding-bottom: 25px!important;
+        line-height: 1;
+    }
+    .detail-thumbnail .img-fluid{
+        width: 100%;
+    }
+    nav.navbar-menu-bottom ul li.active > a{
+        background: black;
+        color: black;
+    }
+    .installation .detail span{
+        font-size: 20px;
+    }
+    .modal .img-fluid{
+        width: 100%;
+    }
+    nav.navbar-menu ul li.active > a{
+        background: black;
+    }
+    nav.navbar-menu ul li.active a > span{
+        color: black;
+    }
+    .modal-icon{
+        width: 163px;
+    }
+    .modal-close-icon{
+        width: 50px;
+        padding:0;
+    }
+    .modal-header{
+        margin-top: 0;
+        border-bottom: none;
+    }
+    .close-text{
+        display: none;
+    }
+}

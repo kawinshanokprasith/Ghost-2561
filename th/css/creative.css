@@ -69,8 +69,6 @@ section.masthead {
   background-size: cover;
 }
 
-
-
 @media (min-width: 992px) {
   section.masthead {
     height: 100vh;
@@ -269,14 +267,12 @@ a{
   margin-right: 8%;
   margin-top: 15px;
   text-align: left;
+  padding-bottom: 30%;
 }
 .venues-content{
   margin-left: 2%;
   margin-right: 2%;
   padding-bottom: 30%;
-}
-.venues-content a:hover{
-  text-decoration: none;
 }
 .participation-content{
   font-size: 28px;
@@ -384,7 +380,9 @@ display: none;
   margin-top: 8px;
   margin-bottom: 8px;
 }
-
+.venues-content a:hover{
+  text-decoration: none;
+}
 .partners-content{
   margin-left: 2%;
   margin-right: 2%;
